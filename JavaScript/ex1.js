@@ -26,4 +26,31 @@ console.log(a);
     var b = 0;
     console.log(b);
 })();
-console.log(b);
+// console.log(b);
+
+// 함수 만들어보기
+// function hello1() {
+//     console.log("hello1");
+// }
+// console.log(hello1, typeof hello1);
+
+const hello1 = function () {
+    console.log('hello1');
+}
+console.log(hello1, typeof hello1);
+
+// function hello2(name) {
+//     console.log('hello2', name);
+// }
+const hello2 = function (name) {
+    console.log('hello2', name);
+}
+hello2('jo');
+
+// function hello3(name) {
+//     return `hello3 ${name}`;
+// }
+const hello3 = function(name) {
+    return `hello3 ${name}`;
+}
+console.log(hello3('jo'));
