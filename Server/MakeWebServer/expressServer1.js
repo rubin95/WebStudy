@@ -1,5 +1,5 @@
-var express = require('express');
-var http = require('http');
+var express = require('express'),
+    http = require('http');
 
 var app = express();
 
